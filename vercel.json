@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/api/image", "destination": "/api/image.py" }],
+  "functions": { "api/image.py": { "memory": 1024, "maxDuration": 10 } }
+}
